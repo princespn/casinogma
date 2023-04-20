@@ -1,0 +1,16 @@
+{
+
+  "port":22053,
+
+"host":"casinosweeps.online",
+"prefix":"https://",
+
+"host_ws":"casinosweeps.online",
+"prefix_ws":"wss://",
+
+"ssl":true,
+
+"privateKey":"jackpotmatic.com_le1.key",
+"certificate":"jackpotmatic.com_le1.crt"
+
+}

@@ -1,0 +1,10 @@
+{
+    "port": "8000",
+    "host": "127.0.0.1",
+    "prefix": "http://",
+    "host_ws": "127.0.0.1",
+    "prefix_ws": "ws://",
+    "ssl": false,
+    "privateKey": "jackpotmatic.com_le1.key",
+    "certificate": "jackpotmatic.com_le1.crt"
+}

@@ -1,0 +1,9 @@
+{
+    "port": 32096,
+    "host": "161.97.132.99",
+    "prefix": "http://",
+    "host_ws": "161.97.132.99",
+    "prefix_ws": "ws://",
+    "ssl": false,
+    "timezone": "Europe/Berlin"
+}

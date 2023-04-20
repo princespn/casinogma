@@ -1,0 +1,94 @@
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.preloader-game {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+    z-index: 1000;
+}
+
+.preloader-game-logo {
+    align-self: center;
+    width: auto;
+    height: 50%;
+    max-height: 576px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.preloader-game-bar-cont {
+    position: relative;
+    align-self: center;
+    max-width: 254px;
+    width: 20vh;
+    height: 20vh;
+    max-height: 254px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 10vh;
+}
+
+.preloader-game-bar,
+.preloader-game-bar-back {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.preloader-game-bar-back {
+    max-width: 254px;
+    max-height: 254px;
+}
+
+.preloader-game-bar {
+    max-width: 59%;
+    max-height: 73%;
+    left: 20%;
+    top: 11%;
+    animation: spin 3s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+}
+
+.preloader-game-bar {
+    z-index: 1;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+}
+
+.preloader-game-text {
+    font-size: 2em;
+    background: linear-gradient(180deg, #ffffff 20%, #CBFF7E 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    -o-border-image: linear-gradient(180deg, #ffffff 20%, #CBFF7E 60%);
+    border-image: linear-gradient(180deg, #ffffff 20%, #CBFF7E 60%);
+    border-image-slice: 1;
+    border: none;
+}

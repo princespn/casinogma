@@ -1,0 +1,15 @@
+{
+
+"port":"5087/arcade",
+"host":"casinosweeps.online",
+"prefix":"https://",
+
+"host_ws":"casinosweeps.online",
+"prefix_ws":"wss://",
+
+"ssl":true,
+
+"timezone":"Europe/Berlin"
+
+}
+

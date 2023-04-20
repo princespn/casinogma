@@ -1,0 +1,514 @@
+.main-bg {
+    position: relative;
+    width: fit-content;
+    min-height: 100vh;
+    z-index: 1020;
+    transform-origin: left;
+}
+
+.main-menu-exit {
+    background: url("/frontend/Tropicoblack/img/dashboard/header/exit.png");
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    transform: translate(20%, 0);
+    cursor: pointer;
+}
+
+.main-menu-sound {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/sound.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 90px;
+    transform: translate(-15%, -10%);
+    cursor: pointer;
+}
+
+.main-menu-jackpot-grand {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_jackpot.png');
+    width: 336px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(48%, 20%);
+}
+
+.main-menu-grand {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_grand.png');
+    width: 121px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-jackpot-major {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_jackpot.png');
+    width: 336px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(148%, 20%);
+}
+
+.main-menu-major {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_major.png');
+    width: 121px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-menu-jackpot-mini {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_jackpot.png');
+    width: 336px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-48%, 20%);
+}
+
+.main-menu-mini {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_mini.png');
+    width: 121px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-jackpot-minor {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_jackpot.png');
+    width: 336px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-148%, 20%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jackpot-text-value {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.username {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.balance {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main-menu-minor {
+    background: url('/frontend/Tropicoblack/img/dashboard/header/bg_minor.png');
+    width: 121px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jackpot-text-grand {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(18%, 25%); */
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #fff;
+    color: white;
+}
+
+.jackpot-text-major {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(18%, 25%); */
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #fff;
+    color: white;
+}
+
+.jackpot-text-minor {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 25%); */
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #fff;
+    color: white;
+}
+
+.jackpot-text-mini {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(60%, 25%); */
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #fff;
+    color: white;
+}
+
+#main-menu {
+    display: inline-flex;
+    background: url('/frontend/Tropicoblack/img/dashboard/bg_up.png');
+    justify-content: center;
+    width: auto;
+    transform-origin: top;
+}
+
+.main-menu-left {
+    transform: scaleX(-1);
+    width: 963px;
+    height: 136px;
+    background: url('/frontend/Tropicoblack/img/dashboard/frame_up.png') 0 0;
+}
+
+.main-menu-right {
+    width: 963px;
+    height: 136px;
+    background: url('/frontend/Tropicoblack/img/dashboard/frame_up.png') 0 0;
+}
+
+
+.main-menu-logo {
+    background: url('/frontend/Tropicoblack/img/dashboard/top_logo.png');
+    position: absolute;
+    width: 245px;
+    height: 174px;
+}
+
+.dashboard-bgvideo {
+    width: -webkit-fill-available !important;
+    height: -webkit-fill-available !important;
+}
+
+/* Footer Menu */
+.footer-menu {
+    display: flex;
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom;
+}
+
+.footer-menu-user {
+    width: 440px;
+    height: 145px;
+    background: url('/frontend/Tropicoblack/img/dashboard/user.png') 0 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-menu-game-kind {
+    width: 1025px;
+    height: 145px;
+    background: url('/frontend/Tropicoblack/img/dashboard/down_back1.png');
+    /*background-position: bottom;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.footer-menu-blank {
+    width: 446px;
+    height: 139px;
+    background: url('/frontend/Tropicoblack/img/dashboard/backbtn.png');
+    background-size: contain;
+}
+
+
+/* Main Container */
+.main-container {
+    position: absolute;
+    top: 0;
+    /* margin-top: 3%; */
+}
+
+#mainContent {
+    width: fit-content;
+    transform-origin: top;
+}
+
+.owl-item {
+    width: 1888px !important;
+}
+
+.owl-stage-outer {
+    width: 1888px !important;
+}
+
+.slot-game-item {
+    width: 240px;
+    height: 280px;
+    background: url('/frontend/Tropicoblack/img/dashboard/icon2.png') 0 0;
+    /* transform: scale(1.2); */
+    /* width: 305px;
+    height: 360px;
+    background: url('/frontend/Tropicoblack/img/dashboard/icon2b.png') 0 0; */
+    /* animation: play-game-item 1.5s steps(6) infinite; */
+}
+
+/* Game Kind */
+
+.all_btn {
+    position: absolute;
+    transform: translate(50%, 0);
+    cursor: pointer;
+}
+
+.fish_btn {
+    position: absolute;
+    transform: translate(150%, 0);
+    cursor: pointer;
+}
+
+.slot_btn {
+    position: absolute;
+    right: 0;
+    transform: translate(-150%, 0);
+    cursor: pointer;
+}
+
+.fire_btn {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    transform: translate(-50%, 0);
+}
+
+.left_arrow {
+    position: absolute;
+    transform: translate(450%, 45%);
+    cursor: pointer;
+}
+
+.right_arrow {
+    position: absolute;
+    right: 0;
+    transform: translate(-450%, 45%) scaleX(-1);
+    cursor: pointer;
+}
+
+.dot {
+    position: absolute;
+    /* transform: translate(1720%, 330%); */
+}
+
+/* User information modal */
+#modal-content {
+    width: 100vw;
+    height: 100vh;
+    z-index: 100000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.userinfo_modal {
+    background: url('/frontend/Tropicoblack/img/dashboard/info_back.png');
+    position: absolute;
+    width: 1062px;
+    height: 674px;
+    top: 0;
+    left: 0;
+    transform: translate(40%, 30%);
+}
+
+.userinfo_modal_close {
+    position: absolute;
+    right: 5%;
+    top: 6%;
+}
+
+.userinfo_modal_done {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
+
+.userinfo_modal_change_password {
+    position: absolute;
+    top: 47%;
+    right: 10%;
+}
+
+.change_password_modal_close {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.userinfo_modal_username {
+    position: absolute;
+    width: 220px;
+    left: 336px;
+    align-items: center;
+    text-align: center;
+    font-family: 'MyriadPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    height: 25px;
+    font-size: 26px;
+    color: #FFAF24;
+    white-space: normal;
+    z-index: 100;
+    top: 210px;
+}
+
+.userinfo_modal_password {
+    position: absolute;
+    width: 220px;
+    left: 336px;
+    align-items: center;
+    text-align: center;
+    font-family: 'MyriadPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    height: 25px;
+    font-size: 26px;
+    color: #FFAF24;
+    white-space: normal;
+    z-index: 100;
+    top: 375px;
+}
+
+.change_password_modal_password {
+    position: absolute;
+    resize: none;
+    border: #FAD123;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    width: 629px;
+    height: 60px;
+    left: 124px;
+    font-size: 23px;
+    outline: none;
+    color: #97DCFE;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    z-index: 10;
+    top: 42.5%;
+}
+
+.change_password_modal_password_confirm {
+    position: absolute;
+    resize: none;
+    border: #FAD123;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    width: 629px;
+    height: 60px;
+    left: 124px;
+    font-size: 23px;
+    outline: none;
+    color: #97DCFE;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    z-index: 10;
+    top: 57%;
+}
+
+.change_password_modal_change_btn {
+    position: absolute;
+    cursor: pointer;
+    width: 784px;
+    height: 87px;
+    top: 543px;
+    left: 44px;
+    z-index: 10;
+    filter: contrast(1.5);
+}
+
+.change_password_modal_password_error {
+    background: url('/frontend/Tropicoblack/img/dashboard/user/passerr.png');
+    position: absolute;
+    top: 404px;
+    left: 84px;
+    transition: 1s;
+    display: none;
+    width: 716px;
+    height: 97px;
+    z-index: 1;
+}
+
+.change_password_modal_password_error_text {
+    position: absolute;
+    font-family: 'MyriadPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 56px;
+}
+
+.change_password_modal_password_error_img {}
+
+.change_password_modal {
+    background: url('/frontend/Tropicoblack/img/dashboard/newpass_back.png');
+    width: 883px;
+    height: 663px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(55%, 30%);
+}
+
+.orientation {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/frontend/Tropicoblack/img/en_orientation.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    z-index: 1030;
+    background-size: contain;
+    opacity: .95;
+    display: none;
+}
+
+@keyframes play-game-item {
+    100% {
+        background-position-x: -1878px;
+        /* background-position-y: -1148px; */
+    }
+}
